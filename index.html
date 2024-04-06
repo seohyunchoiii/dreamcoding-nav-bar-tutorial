@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect"
+    href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+    rel="stylesheet">
+    <title>Nav bar</title>
+    <!-- 아이콘이 웹사이트에서 보이도록 link-->
+    <script src="https://kit.fontawesome.com/5f5065abf1.js" crossorigin="anonymous">
+    </script>
+    <!-- defer은 실시간으로 변화 확인 가능 -->
+    <script src="main.js" defer></script>
+    
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="navbar__logo">
+        <!-- fontawesome에서 링크복사 -->
+        <i class="fa-brands fa-accusoft"></i>
+        <!-- anchor tag는 dreamcoding을 눌렀을 때 이동 -->
+        <a href="">DreamCoding</a>
+      </div>
+
+      <ul class="navbar__menu">
+        <!-- (li>a)*5 입력 후 tab-->
+        <li><a href="">Home</a></li>
+        <li><a href="">Gallery</a></li>
+        <li><a href="">Weddings</a></li>
+        <li><a href="">FAQ</a></li>
+        <li><a href="">Bookings</a></li>
+      </ul>
+
+      <ul class="navbar__icons">
+        <li><i class="fa-brands fa-x-twitter"></i></li>
+        <li><i class="fa-brands fa-instagram"></i></li>
+      </ul>
+
+      <!-- 햄버거 생성 -->
+      <!-- a.navbar__toggleBtn 적고 tab -->
+      <a href="#" class="navbar__toggleBtn">
+        <i class="fa-solid fa-bars"></i>
+      </a>
+    </nav>
+  </body>
+</html>
